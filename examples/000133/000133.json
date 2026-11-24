@@ -1,0 +1,284 @@
+{
+  "organ": "kidney",
+  "frames": [
+    {
+      "image": "frames/001.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a broad, fragmented parenchymal section with predominantly tubular architecture and scattered rounded glomerular profiles. The tissue is variably congested with prominent blood-filled spaces and focal hemorrhagic areas."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing a broad, partially organized parenchymal fragment with extensive hemorrhagic areas and fibrous-appearing stroma. Scattered tubular and vascular profiles are present, with focal tissue disruption and blood-filled spaces."
+      }
+    },
+    {
+      "image": "frames/002.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+         "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/003.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a broad, densely cellular lymphoid-appearing infiltrate with irregular pale stromal and hemorrhagic areas. Scattered rounded to elongated eosinophilic structures and prominent blood-filled spaces are present, with focal fibrous tissue at the lower edge."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue shows a broad region of dense fibrous and cellular stroma containing numerous irregular tubular profiles and prominent thick-walled vascular structures. The tubules are lined by small cuboidal cells with relatively uniform nuclei, with focal hemorrhagic and congested areas and scattered stromal inflammatory cells."
+      }
+    },
+    {
+      "image": "frames/004.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing densely packed, irregular tubular structures within fibrous stroma, with focal larger blood-filled vascular spaces. The tubules are lined by relatively uniform cuboidal to low columnar cells with small nuclei; scattered chronic inflammatory cells and focal hemorrhage are present."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing renal parenchyma with numerous variably sized tubules and scattered glomerular profiles in a fibrous, congested interstitium. Broad areas of hemorrhage and blood-filled vascular spaces are present, with focal clear tissue separation and mild chronic inflammatory cells."
+      }
+    },
+    {
+      "image": "frames/005.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/006.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/007.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/008.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely cellular, complex tubular architecture with closely packed, irregularly branching tubules and intervening scant stroma. Tubules are lined by relatively uniform cuboidal to low columnar cells with round nuclei, occasional luminal secretions, and focal blood-filled vascular spaces."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing densely packed, irregular tubules in a fibrous and hemorrhagic interstitial background. Tubules are lined by cuboidal epithelial cells with variably eosinophilic to pale cytoplasm and enlarged, mildly pleomorphic nuclei; occasional luminal proteinaceous material and focal blood are present."
+      }
+    },
+    {
+      "image": "frames/009.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely packed, complex tubular architecture with irregularly branching and variably dilated tubules. Tubules are lined by relatively uniform cuboidal to low columnar epithelial cells with round nuclei, set in scant fibrous stroma with focal hemorrhage and small congested vessels."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney parenchyma showing closely packed, variably dilated tubular profiles in an irregular interstitial arrangement. Tubules are lined by cuboidal epithelial cells with pale to eosinophilic cytoplasm and generally uniform round nuclei, with prominent congestion and focal hemorrhage in intervening capillaries and interstitium."
+      }
+    },
+    {
+      "image": "frames/010.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely packed, complex tubular architecture with irregularly branching and variably dilated tubules. The tubules are lined by relatively uniform cuboidal to low columnar epithelial cells with round nuclei, set in scant fibrous stroma with focal hemorrhage and small blood-filled spaces."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely cellular tubulointerstitial region with closely packed, variably dilated tubules lined by cuboidal epithelial cells. Tubular lumina contain eosinophilic material and focal debris, with prominent interstitial congestion and hemorrhage. Some tubules display cytoplasmic vacuolization and mild epithelial irregularity."
+      }
+    },
+    {
+      "image": "frames/011.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely packed, complex tubular architecture with irregularly branching and variably dilated tubules. Tubules are lined by relatively uniform cuboidal to low columnar epithelial cells with round nuclei, with focal luminal eosinophilic material and scattered congested blood-filled spaces."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing densely packed, variably oriented tubules within scant interstitial stroma. Tubules are lined by cuboidal epithelial cells with pale to eosinophilic cytoplasm and round nuclei, with prominent interspersed capillaries containing erythrocytes. Glomeruli are not represented in this field."
+      }
+    },
+    {
+      "image": "frames/012.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely packed, complex tubular architecture with irregularly branching and variably dilated tubules. The tubules are lined by relatively uniform cuboidal to low columnar epithelial cells with round nuclei, set in scant fibrous stroma with focal hemorrhage and blood-filled spaces."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely cellular region composed predominantly of closely packed, variably dilated tubular structures in an interstitial stroma. The tubules are lined by cuboidal epithelial cells with pale to eosinophilic cytoplasm and relatively uniform nuclei, with scattered congested small vessels and focal hemorrhagic areas."
+      }
+    },
+    {
+      "image": "frames/013.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/014.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a transition from densely packed, irregular tubular structures to a broad band of fibromuscular stroma. The tubules are lined by relatively uniform cuboidal to low columnar cells with small nuclei, with focal luminal blood and hemorrhagic areas."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing a dense, complex tubulocystic architecture with numerous variably sized tubules and cystic spaces in fibrous stroma. Tubules are lined by small cuboidal to low columnar cells, with focal blood-filled spaces and prominent underlying smooth muscle bundles."
+      }
+    },
+    {
+      "image": "frames/015.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/016.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/017.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a broad band of dense, whorled fibromuscular stroma with scattered small vascular channels and focal hemorrhage. The overlying region contains irregular tubules and epithelial-lined spaces, with sparse chronic inflammatory cells and no conspicuous necrosis."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing a broad zone of fibrous and smooth-muscle–rich stroma with scattered tubular profiles and small vascular spaces. The parenchyma is focally congested and contains patchy chronic inflammatory cell aggregates, with no conspicuous necrosis or prominent cytologic atypia."
+      }
+    },
+    {
+      "image": "frames/018.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a transition from densely packed tubular structures to a broad band of smooth muscle. The tubules are lined by relatively uniform cuboidal to low columnar cells with small nuclei, with focal luminal blood and hemorrhagic areas; intervening stroma is scant to fibrous."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing renal parenchyma with numerous variably dilated tubules lined by cuboidal epithelium and scattered glomeruli. The tubules are embedded in fibrotic, inflamed-appearing interstitium with focal hemorrhage, adjacent to a broad band of dense smooth muscle and fibrous stroma."
+      }
+    },
+    {
+      "image": "frames/019.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a complex, crowded tubular architecture with irregularly branching and variably dilated tubules embedded in fibrous stroma. The tubules are lined by cuboidal to columnar epithelial cells with pale to eosinophilic cytoplasm and relatively uniform nuclei, with focal luminal blood and hemorrhagic debris."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing predominantly tubular parenchyma with numerous variably dilated tubules lined by cuboidal epithelial cells. The tubules contain eosinophilic material and focal blood, with intervening delicate interstitium and congestion; a small glomerular profile is present at the left."
+      }
+    },
+    {
+      "image": "frames/020.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/021.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing closely packed tubules lined by cuboidal epithelial cells with abundant pale, finely vacuolated cytoplasm and round nuclei. Tubular lumina contain occasional erythrocytes and focal blood, with delicate interstitial stroma and no prominent inflammation or necrosis."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney parenchyma composed predominantly of tubular profiles with focal congestion and interstitial hemorrhage. Tubules are lined by cuboidal epithelial cells with abundant granular eosinophilic cytoplasm and round nuclei, with occasional tubular dilation and luminal red blood cells. Glomerular tissue is only focally represented at the edge of the patch."
+      }
+    },
+    {
+      "image": "frames/022.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/023.jpg",
+      "model": {
+        "gate": "silent",
+        "description": ""
+      },
+      "gt": {
+        "gate": "silent",
+        "description": ""
+      }
+    },
+    {
+      "image": "frames/024.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a densely packed, complex tubular architecture with irregularly branching and variably dilated tubules. The tubules are lined by relatively uniform cuboidal to low columnar epithelial cells with round nuclei, set in scant fibrous stroma with focal hemorrhage and blood-filled spaces."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing a fibrotic, tubulointerstitial region with numerous irregular and variably dilated tubular profiles arranged in haphazard bundles. The tubules are lined by relatively bland cuboidal to flattened epithelium, with prominent interstitial fibrosis, patchy chronic inflammatory cells, and scattered congested vessels. Extensive hemorrhagic areas are present at the periphery."
+      }
+    },
+    {
+      "image": "frames/025.jpg",
+      "model": {
+        "gate": "update",
+        "description": "Kidney tissue showing a broad band of dense, whorled smooth muscle with scattered small vascular channels, overlying a region of closely packed tubules and glomeruli. The tubules are lined by relatively uniform cuboidal epithelium, with focal hemorrhage and fibrous stromal tissue."
+      },
+      "gt": {
+        "gate": "update",
+        "description": "Kidney tissue showing a broad zone of renal parenchyma with numerous tubules and scattered small vascular profiles, transitioning superiorly to congested, hemorrhagic tissue with irregular spaces and fibrous stroma. Tubules are lined by relatively uniform cuboidal epithelium, with focal tubular dilatation and luminal debris."
+      }
+    }
+  ],
+  "diagnosis": {
+    "model": "Papillary renal cell carcinoma.",
+    "gt": "Papillary renal cell carcinoma."
+  }
+}

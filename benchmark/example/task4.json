@@ -1,0 +1,12 @@
+{
+  "task": 4,
+  "question": "At the beginning of the video, which combination describes the glandular epithelium?",
+  "options": {
+    "A": "nuclear morphology: relatively uniform nuclei; cellular crowding: crowded.",
+    "B": "nuclear morphology: enlarged hyperchromatic nuclei; cellular crowding: crowded.",
+    "C": "nuclear morphology: relatively uniform nuclei; cellular crowding: not crowded.",
+    "D": "nuclear morphology: enlarged hyperchromatic nuclei; cellular crowding: not crowded."
+  },
+  "instruction": "Answer with exactly one letter: A, B, C, or D.",
+  "answer": "B"
+}

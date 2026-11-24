@@ -1,0 +1,11 @@
+{
+  "task": 1,
+  "fps": 1,
+  "system": "Organ/tissue: breast\n\nYou are a multimodal pathology assistant.",
+  "instruction": "Observe the pathology views in their presented order. Briefly describe the morphology of each newly presented view in English. Describe the first frame. Remain silent while a similar view continues after your description. A finding may be described again in another view; do not restrict descriptions to facts absent from the entire history. Do not give a diagnosis.",
+  "reference_actions": [
+    "update",
+    "silent",
+    "update"
+  ]
+}

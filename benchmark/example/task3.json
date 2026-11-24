@@ -1,0 +1,129 @@
+{
+  "task": 3,
+  "id": "ningbo/01kzqcjcg4n32v5dqwddk18t03",
+  "metadata": {
+    "split": "test",
+    "split_group_id": "v5_G00075"
+  },
+  "fps": 1,
+  "system": "Organ/tissue: esophagus\n\nYou are a multimodal pathology assistant.",
+  "conversation": [
+    {
+      "role": "stream",
+      "num_frames": 1,
+      "learn": false
+    },
+    {
+      "role": "user",
+      "content": "Observe the pathology views in their presented order. Briefly describe the morphology of each newly presented view in English. Remain silent while a similar view continues after your description. A finding may be described again in another view; do not restrict descriptions to facts absent from the entire history. Use the accumulated visual evidence to answer a diagnostic question when asked. Do not give a diagnosis during spontaneous morphological descriptions.",
+      "kind": "description"
+    },
+    {
+      "role": "assistant",
+      "content": "The esophageal tissue section demonstrates a large, exophytic polypoid mass projecting into the lumen. The lesion is composed of densely packed epithelial cells with hyperchromatic nuclei arranged in complex glandular and papillary structures. Underlying submucosal and muscular layers are visible at the base of the specimen.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "stream",
+      "num_frames": 1,
+      "learn": true
+    },
+    {
+      "role": "assistant",
+      "content": "Esophagus showing a broad mucosal/submucosal tissue fragment with prominent irregular glandular and papillary architecture. The glands are lined by crowded epithelial cells within fibrous stroma, with underlying dense smooth muscle bundles.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "stream",
+      "num_frames": 1,
+      "learn": true
+    },
+    {
+      "role": "assistant",
+      "content": "Esophageal tissue showing a densely glandular mucosal/submucosal region composed of numerous irregular, variably sized glands and tubules embedded in fibrous stroma. The glands are lined by crowded cuboidal to columnar epithelial cells with elongated nuclei, with focal architectural complexity and intervening smooth muscle bundles.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "stream",
+      "num_frames": 1,
+      "learn": true
+    },
+    {
+      "role": "assistant",
+      "content": "Tissue: esophagus. The patch shows a dense, irregular glandular architecture with prominent gland formation. The stroma appears desmoplastic, and there is a notable presence of inflammatory cells. No significant necrosis or mitoses are visible in this section.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "stream",
+      "num_frames": 1,
+      "learn": true
+    },
+    {
+      "role": "assistant",
+      "content": "Esophagus. The patch shows a cross-section of esophageal tissue with a prominent epithelial layer and underlying connective tissue. The mucosal architecture appears disrupted with irregular glandular formations. There is noticeable stromal reaction and some inflammatory cells are present. No significant necrosis or mitotic figures are visible in this section.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "stream",
+      "num_frames": 2,
+      "learn": true
+    },
+    {
+      "role": "assistant",
+      "content": "Esophagus with mucosa showing an abrupt transition between gland-rich mucosa and a luminal columnar epithelial surface, underlain by prominent fibromuscular tissue. The submucosa and muscularis contain dense bundles of smooth muscle with scattered glandular structures and focal tissue fragmentation.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "stream",
+      "num_frames": 1,
+      "learn": true
+    },
+    {
+      "role": "assistant",
+      "content": "Esophagus composed of mucosa with prominent papillary/folded architecture overlying submucosa and a thick muscular wall. The mucosa is lined by stratified squamous epithelium with underlying fibrous stroma.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "stream",
+      "num_frames": 1,
+      "learn": true
+    },
+    {
+      "role": "assistant",
+      "content": "Esophagus showing a thick, irregular mucosal and submucosal region composed of closely packed glands and complex glandular folds, with intervening fibrous stroma. The lesion extends toward a broad band of smooth muscle, with focal hemorrhage and scattered luminal debris.",
+      "kind": "update",
+      "learn": true
+    },
+    {
+      "role": "user",
+      "content": "The video stream has ended. Based on all the views observed so far, provide a concise English pathological diagnosis. Output only the diagnosis, without a heading, reasoning, or an evidence section. Preserve supported diagnostic uncertainty and subtype qualifiers; do not invent unsupported details.",
+      "kind": "diagnosis"
+    },
+    {
+      "role": "assistant",
+      "content": "Adenocarcinoma, moderately differentiated, with submucosal invasion.",
+      "kind": "diagnosis",
+      "learn": true
+    }
+  ],
+  "supervision": {
+    "frame_targets": [
+      "update",
+      "update",
+      "update",
+      "update",
+      "update",
+      "silent",
+      "update",
+      "update",
+      "update"
+    ]
+  }
+}

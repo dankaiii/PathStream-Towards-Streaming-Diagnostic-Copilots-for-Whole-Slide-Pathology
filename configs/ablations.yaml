@@ -1,0 +1,12 @@
+# Each entry overrides the Stage 1 recipe; validation and checkpoint selection are shared.
+wo_diagnosis_attention: {losses: {diagnosis_attention: {enabled: false}}}
+wo_gate_ce:             {losses: {gate_ce: {enabled: false}}}
+wo_description_ce:      {losses: {description_ce: {enabled: false}}}
+wo_diagnosis_ce:        {losses: {diagnosis_ce: {enabled: false}}}
+gate_ce_x5:             {losses: {gate_ce: {weight: 5.0}}}
+gate_ce_x10:            {losses: {gate_ce: {weight: 10.0}}}
+diagnosis_ce_x5:        {losses: {diagnosis_ce: {weight: 5.0}}}
+diagnosis_ce_x10:       {losses: {diagnosis_ce: {weight: 10.0}}}
+lora_r64:               {lora_r: 64}
+lora_r32:               {lora_r: 32}
+lora_r16:               {lora_r: 16}

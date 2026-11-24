@@ -1,0 +1,13 @@
+{
+  "task": 2,
+  "fps": 1,
+  "system": "Organ/tissue: brain\n\nYou are a multimodal pathology assistant.",
+  "instruction": "Observe the pathology views in their presented order. Briefly describe the complete morphology of each newly presented view in English. Describe the first frame. Remain silent while a similar view continues after your description. A finding may be described again in another view; do not restrict descriptions to facts absent from the entire history. Do not give a diagnosis.",
+  "reference_descriptions": [
+    "The tissue is brain. The image shows a dense cellular architecture with numerous small, round to oval nuclei dispersed throughout a fibrillary background. There is a notable presence of red blood cells within vascular spaces. The stroma appears to be finely fibrillar, and there is no evident necrosis or significant mitotic activity in this patch.",
+    "silent",
+    "silent",
+    "silent",
+    "Brain tissue with a diffuse, finely fibrillar neuropil background containing numerous small to intermediate glial-appearing nuclei and scattered vacuolated cells. Small blood vessels are present, with mild focal perivascular lymphocytic inflammation."
+  ]
+}
